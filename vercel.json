@@ -1,8 +1,7 @@
 {
   "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/app.js"
-    }
+    { "source": "/auth", "destination": "/api/auth" },
+    { "source": "/callback", "destination": "/api/callback" },
+    { "source": "/success", "destination": "/api/success" }
   ]
 }
